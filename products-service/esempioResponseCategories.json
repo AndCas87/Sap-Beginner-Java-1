@@ -1,0 +1,24 @@
+{
+    "@context": "$metadata#Categories",
+    "@metadataEtag":	'W/"531c9328d3c55fa35186814974d1310e1421a554c49d0e015830464509eeb2fb"',
+    "value": {
+        "0": {
+            "name": "TechEd",
+            "descr": "TechEd related topics",
+            "ID": 1,
+            "parent_ID": null
+        },
+        "1": {
+            "name": "CAP Java",
+            "descr": "Run on Java",
+            "ID": 10,
+            "parent_ID": 1
+        },
+        "2": {
+            "name": "CAP Node.js",
+            "descr": "Run on Node.js",
+            "ID": 11,
+            "parent_ID": 1
+        }
+    }
+}
