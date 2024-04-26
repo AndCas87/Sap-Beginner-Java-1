@@ -1,4 +1,6 @@
 {
+  "xsappname": "bookstore",
+  "tenant-mode": "dedicated",
   "scopes": [
     {
       "name": "$XSAPPNAME.Administrators",
@@ -15,5 +17,15 @@
       ],
       "attribute-references": []
     }
-  ]
+  ],
+  "role-collections": [
+    {
+      "name": "BookStore_Administrators",
+      "description": "BookStore Administrators",
+      "role-template-references": ["$XSAPPNAME.Administrators"]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": ["https://api.cf.us10-001.hana.ondemand.com/**"]
+  }
 }
